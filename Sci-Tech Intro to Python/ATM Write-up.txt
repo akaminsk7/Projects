@@ -1,0 +1,18 @@
+Intro to Python: ATM Project Outline
+
+For this project, you will utilize data input, else-if latters and data modification in order to create a working ATM. 
+Below outlines the steps necesarry to complete the task.
+1)	Have the user create a username and password and create an arbitrary starting balance
+2) 	Ask the user to sign into the ATM
+3) 	Upon a sucessful sign-in, show the user their balance and ask them to decide if they want to withdrawl or deposit money.
+	For unsecessful login attempts, inform the user of their error and end the program EX: Tell user if they entered the wrong username or password
+4a) For Withdrawls, ask the user how much they would like to withdrawl and ensure that the user has enough money to complete the transaction. 
+	If the user does not have enough money to complete the transaction, inform the user and end the program
+4b) For Deposit, ask the user how much they would like to deposit and add that amount to their balance.
+5)	Thank the user for using the atm if a successful transaction occurs(Correct username and password, Correct Withdrawl or deposit)
+
+Additional Challenges:
+1)	Use a while loop in order to keep allowing the user to perform transactions until they no longer want to make withdrawls or deposits
+2) 	Use a For-Loop to allow users 5 attempts to type in the correct username and password before the program terminates
+3)	Use either a For-Loop or a While loop in order to allow the user to input correct data if a mistake was made
+	EX: Asking the user how much they would like to withdrawl until a valid amount is selected.
