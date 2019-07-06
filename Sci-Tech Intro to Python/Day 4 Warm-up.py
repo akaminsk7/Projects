@@ -14,4 +14,4 @@ elif x >= 10:
 elif x < 5:
 	print(str(x) + " is less than 5")
 else:
-	print("Ma Rabu!!")
+	print("Mah Rabu!!")
