@@ -17,3 +17,25 @@
 		print( "Can " + name " get a wow?")
 
 '''
+#'''
+import random
+x = input("Pick a number between 1 and 10: ")
+count = 0
+not_equal = False
+while not not_equal:
+	count += 1
+	rand_num = random.randint(1, 11)
+	print(str(count) + ". " + str(rand_num))
+	not_equal = rand_num == x
+print("It took " + str(count) + " tries to get number " + str(x))
+#'''
+# =========================================================================================
+#'''
+import random
+print("Welcome to the Dice Roller")
+sides = input("How many sides would you like for the die to have: ")
+rolls = input("How many times would you like to roll the die: ")
+for x in range(rolls):
+	result = random.randint(1, sides)
+	print( "Roll Number " + str(x + 1) + ". " + str(result))
+#'''	
